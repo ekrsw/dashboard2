@@ -1,0 +1,81 @@
+body {
+    font-family: "Meyrio";
+    background-color: #F5F7FD;
+}
+.last-data-acquisition-date p {
+    font-size: 30px;
+    margin: 5px 5px 5px 5px;
+}
+.aac_container {
+    display: flex;
+}
+.aac_box {
+    width: 310px;
+    height: 185px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 5px 10px;
+    margin: 5px 5px;
+}
+.container {
+    display: flex;
+}
+.box {
+    width: 480px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 5px 10px;
+    margin: 5px 5px;
+}
+.contents {
+    font-weight: bold;
+    font-size: 55px;
+    color: #404040;
+    text-align: center;
+}
+.label {
+    font-weight: bold;
+    font-size: 40px;
+    color: #193A95;
+}
+.contents-container {
+    display: flex;
+    font-size: 50px;
+    margin: 0px;
+}
+.group {
+    font-weight: bold;
+    color: #404040;
+    width: 125px;
+    height: 80px;
+    margin: 0px;
+    text-align: left;
+}
+.sep {
+    font-weight: bold;
+    color: #404040;
+    width: 80px;
+    height: 80px;
+    margin: 0px;
+    text-align: left;
+}
+.ratio {
+    font-weight: bold;
+    color: #404040;
+    width: 270px;
+    height: 80px;
+    margin: 0px;
+    text-align: right;
+}
+
+
+h1 {
+    font-size: 55px;
+    color: #404040;
+    margin: 0px 0px 0px 15px;
+}
+.notes p {
+    font-size: 30px;
+    margin: 0px 0px 0px 15px;
+}

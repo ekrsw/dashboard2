@@ -1,0 +1,440 @@
+
+    <!DOCTYPE html>
+    <html lang="ja">
+    <head>
+        <meta charset="cp932">
+        <meta http-equiv="refresh" content="60">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            h1 {
+            font-family: "Meiryo", sans-serif;
+            font-size: 24px;
+            color: #404040;
+            margin: 5px 15px;
+            }
+            pre {
+            font-family: "Meiryo", sans-serif;
+            font-size: 15px;
+            font-weight: bold;
+            color: #404040;
+            margin: 10px 15px;
+            }
+            p {
+            font-family: "Meiryo", sans-serif;
+            font-size: 10.5px;
+            color: #7F7F7F;
+            margin: 10px 15px;
+            }
+            table, th, td {
+            font-family: "Meiryo", sans-serif;
+            }
+            .styled-table {
+            width: 400px;
+            border-collapse: collapse;
+            margin: 10px 15px;
+            font-size: 11px;
+            color: #404040;
+            text-align: left;
+            font-family: "Meiryo", sans-serif;
+            }
+            .styled-table th, .styled-table td {
+                padding: 1px 3px;
+                border-bottom: 1px solid #ddd;
+            }
+            .styled-table thead tr {
+                background-color: #193A95;
+                color: white;
+                text-align: center;
+            }
+            .styled-table tbody tr:nth-of-type(even) {
+                background-color: #F5F7FD;
+            }
+            .styled-table tbody tr:last-of-type {
+                border-bottom: none;
+            }
+            .grid-container {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-gap: 20px;
+            }
+        </style>
+        <title>本日の個人別パフォーマンス</title>
+    </head>
+    <body>
+        <h1>本日の部門KPI</h1>
+        <pre>ACW&#009;:&#009;00:14:52</pre>
+        <pre>ATT&#009;:&#009;00:10:15</pre>
+        <pre>CPH&#009;:&#009;2.36</pre>
+        <h1>本日の個人別パフォーマンス</h1>
+        <p>※CPHは暫定値です</p>
+        <p>ページは1分ごと, データは3分ごとに更新されます。</p>
+        <p>最終データ取得日時【2023/09/06 19:59:04】</p>
+        <table border="1" class="dataframe styled-table">
+  <thead>
+    <tr>
+      <th>ｵﾍﾟﾚｰﾀ</th>
+      <th>ｼﾌﾄ</th>
+      <th>ACW</th>
+      <th>ATT</th>
+      <th>CPH</th>
+      <th>ｸﾛｰｽﾞ</th>
+      <th>業務ｽﾃｰﾀｽ</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>菅谷 哲太郎</td>
+      <td>020</td>
+      <td>00:08:22</td>
+      <td>00:07:46</td>
+      <td>3.56</td>
+      <td>31</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>吉本 優成</td>
+      <td>009</td>
+      <td>00:10:51</td>
+      <td>00:06:19</td>
+      <td>3.49</td>
+      <td>26</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>高橋 万裕子</td>
+      <td>209</td>
+      <td>00:14:16</td>
+      <td>00:06:35</td>
+      <td>2.87</td>
+      <td>23</td>
+      <td>在宅</td>
+    </tr>
+    <tr>
+      <td>小野 竜志</td>
+      <td>313</td>
+      <td>00:07:56</td>
+      <td>00:07:19</td>
+      <td>3.93</td>
+      <td>22</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>三ケ田 梨乃</td>
+      <td>211</td>
+      <td>00:12:26</td>
+      <td>00:08:56</td>
+      <td>2.78</td>
+      <td>21</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>吉岡 崇志</td>
+      <td>009</td>
+      <td>00:13:40</td>
+      <td>00:09:38</td>
+      <td>2.47</td>
+      <td>20</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>野間 靖雅</td>
+      <td>009</td>
+      <td>00:12:31</td>
+      <td>00:08:15</td>
+      <td>2.89</td>
+      <td>20</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>福田 香菜子</td>
+      <td>209</td>
+      <td>00:06:55</td>
+      <td>00:12:20</td>
+      <td>2.89</td>
+      <td>20</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>浅野 希</td>
+      <td>019</td>
+      <td>00:12:22</td>
+      <td>00:16:08</td>
+      <td>2.10</td>
+      <td>19</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>正村 憲一</td>
+      <td>313</td>
+      <td>00:08:47</td>
+      <td>00:06:27</td>
+      <td>3.94</td>
+      <td>19</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>渡邊 彩水</td>
+      <td>009</td>
+      <td>00:18:21</td>
+      <td>00:07:58</td>
+      <td>2.28</td>
+      <td>16</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>宮部 真</td>
+      <td>211</td>
+      <td>00:11:44</td>
+      <td>00:20:33</td>
+      <td>1.86</td>
+      <td>13</td>
+      <td>在宅, 1次受当番</td>
+    </tr>
+    <tr>
+      <td>賀屋 栄作</td>
+      <td>380</td>
+      <td>00:14:50</td>
+      <td>00:10:37</td>
+      <td>2.36</td>
+      <td>13</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>伊藤 克泰</td>
+      <td>009</td>
+      <td>00:28:28</td>
+      <td>00:19:22</td>
+      <td>1.24</td>
+      <td>11</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>原口 順子</td>
+      <td>009</td>
+      <td>00:39:49</td>
+      <td>00:17:01</td>
+      <td>1.06</td>
+      <td>10</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>永見 幸太郎</td>
+      <td>009</td>
+      <td>00:54:57</td>
+      <td>00:11:15</td>
+      <td>0.91</td>
+      <td>7</td>
+      <td>在宅</td>
+    </tr>
+    <tr>
+      <td>永橋 正憲</td>
+      <td>313</td>
+      <td>00:13:16</td>
+      <td>00:13:58</td>
+      <td>2.20</td>
+      <td>6</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>是澤 英輔</td>
+      <td>380</td>
+      <td>00:25:58</td>
+      <td>00:09:24</td>
+      <td>1.63</td>
+      <td>4</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>吉田 祐二</td>
+      <td>週休</td>
+      <td>00:06:42</td>
+      <td>00:17:44</td>
+      <td>2.45</td>
+      <td>4</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>木島 直人</td>
+      <td>週休</td>
+      <td>00:12:02</td>
+      <td>00:08:03</td>
+      <td>2.99</td>
+      <td>4</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>荒河 優太</td>
+      <td>009</td>
+      <td>01:18:34</td>
+      <td>00:14:37</td>
+      <td>0.64</td>
+      <td>3</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>浅原 翔</td>
+      <td>380</td>
+      <td>00:28:41</td>
+      <td>00:09:20</td>
+      <td>1.58</td>
+      <td>2</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>花輪 宏樹</td>
+      <td>009</td>
+      <td>00:00:00</td>
+      <td>00:00:00</td>
+      <td>0.00</td>
+      <td>0</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>藤井 正直</td>
+      <td>009</td>
+      <td>00:00:00</td>
+      <td>00:00:00</td>
+      <td>0.00</td>
+      <td>0</td>
+      <td>モニ：荒河さん</td>
+    </tr>
+    <tr>
+      <td>髙木 和優</td>
+      <td>309</td>
+      <td>00:00:00</td>
+      <td>00:00:00</td>
+      <td>0.00</td>
+      <td>0</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>北村 聡洋</td>
+      <td>322</td>
+      <td>00:00:00</td>
+      <td>00:00:00</td>
+      <td>0.00</td>
+      <td>0</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>米川 学</td>
+      <td>322</td>
+      <td>00:00:00</td>
+      <td>00:00:00</td>
+      <td>0.00</td>
+      <td>0</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>内御堂 吉彦</td>
+      <td>有休</td>
+      <td>00:00:00</td>
+      <td>00:00:00</td>
+      <td>0.00</td>
+      <td>0</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>桜井 有美</td>
+      <td>有休</td>
+      <td>00:00:00</td>
+      <td>00:00:00</td>
+      <td>0.00</td>
+      <td>0</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>谷川 敦紘</td>
+      <td>有休</td>
+      <td>00:00:00</td>
+      <td>00:00:00</td>
+      <td>0.00</td>
+      <td>0</td>
+      <td>在宅</td>
+    </tr>
+    <tr>
+      <td>大竹 航平</td>
+      <td>未設定</td>
+      <td>00:00:00</td>
+      <td>00:00:00</td>
+      <td>0.00</td>
+      <td>0</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>鶴飼 早穂</td>
+      <td>未設定</td>
+      <td>00:00:00</td>
+      <td>00:00:00</td>
+      <td>0.00</td>
+      <td>0</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>宮島 麻衣</td>
+      <td>週休</td>
+      <td>00:00:00</td>
+      <td>00:00:00</td>
+      <td>0.00</td>
+      <td>0</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>瀧澤 克巳</td>
+      <td>週休</td>
+      <td>00:00:00</td>
+      <td>00:00:00</td>
+      <td>0.00</td>
+      <td>0</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>立見 百合子</td>
+      <td>週休</td>
+      <td>00:00:00</td>
+      <td>00:00:00</td>
+      <td>0.00</td>
+      <td>0</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>荒江 嘉貴</td>
+      <td>週休</td>
+      <td>00:00:00</td>
+      <td>00:00:00</td>
+      <td>0.00</td>
+      <td>0</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>逸見 慶貴</td>
+      <td>週休</td>
+      <td>00:00:00</td>
+      <td>00:00:00</td>
+      <td>0.00</td>
+      <td>0</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>関口 黎</td>
+      <td>週休</td>
+      <td>00:00:00</td>
+      <td>00:00:00</td>
+      <td>0.00</td>
+      <td>0</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>髙木 真菜美</td>
+      <td>週休</td>
+      <td>00:00:00</td>
+      <td>00:00:00</td>
+      <td>0.00</td>
+      <td>0</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+    </body>
+    </html>
+    

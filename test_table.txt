@@ -1,0 +1,366 @@
+<table border="1" class="dataframe styled-table">
+  <thead>
+    <tr>
+      <th>µÕﬂ⁄∞¿</th>
+      <th>ºÃƒ</th>
+      <th>ACW</th>
+      <th>ATT</th>
+      <th>CPH</th>
+      <th>∏€∞Ωﬁ</th>
+      <th>ã∆ñ±Ω√∞¿Ω</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>íJêÏ ì÷çh</td>
+      <td>309</td>
+      <td>00:09:41</td>
+      <td>00:04:21</td>
+      <td>4.27</td>
+      <td>19</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>óßå© ïSçáéq</td>
+      <td>009</td>
+      <td>00:07:57</td>
+      <td>00:08:08</td>
+      <td>3.73</td>
+      <td>16</td>
+      <td>ç›ëÓ</td>
+    </tr>
+    <tr>
+      <td>ãgñ{ óDê¨</td>
+      <td>009</td>
+      <td>00:08:51</td>
+      <td>00:06:19</td>
+      <td>3.95</td>
+      <td>14</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>ëÎ‡V çéñ§</td>
+      <td>009</td>
+      <td>00:09:48</td>
+      <td>00:10:34</td>
+      <td>2.51</td>
+      <td>14</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>êõíJ ìNëæòY</td>
+      <td>009</td>
+      <td>00:11:12</td>
+      <td>00:05:53</td>
+      <td>3.33</td>
+      <td>14</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>ñÏä‘ ñıâÎ</td>
+      <td>009</td>
+      <td>00:12:54</td>
+      <td>00:05:49</td>
+      <td>3.18</td>
+      <td>14</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>çrç] â√ãM</td>
+      <td>320</td>
+      <td>00:16:32</td>
+      <td>00:05:51</td>
+      <td>2.68</td>
+      <td>12</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>êÛñÏ äÛ</td>
+      <td>009</td>
+      <td>00:11:12</td>
+      <td>00:12:05</td>
+      <td>2.57</td>
+      <td>11</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>àÌå© åcãM</td>
+      <td>211</td>
+      <td>00:12:13</td>
+      <td>00:04:51</td>
+      <td>3.51</td>
+      <td>11</td>
+      <td>ç›ëÓ, 1éüéÛìñî‘</td>
+    </tr>
+    <tr>
+      <td>ì‡å‰ì∞ ãgïF</td>
+      <td>009</td>
+      <td>00:14:49</td>
+      <td>00:15:38</td>
+      <td>1.97</td>
+      <td>9</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>çÇã¥ ñúóTéq</td>
+      <td>209</td>
+      <td>00:19:20</td>
+      <td>00:11:20</td>
+      <td>1.96</td>
+      <td>9</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>ìnÁ≤ ç êÖ</td>
+      <td>009</td>
+      <td>00:16:49</td>
+      <td>00:12:13</td>
+      <td>1.95</td>
+      <td>8</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>ïüìc çÅçÿéq</td>
+      <td>209</td>
+      <td>00:13:13</td>
+      <td>00:13:07</td>
+      <td>2.09</td>
+      <td>8</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>ì°à‰ ê≥íº</td>
+      <td>009</td>
+      <td>00:16:46</td>
+      <td>00:02:55</td>
+      <td>3.05</td>
+      <td>7</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>ñkë∫ ëèóm</td>
+      <td>322</td>
+      <td>00:04:52</td>
+      <td>00:06:43</td>
+      <td>5.17</td>
+      <td>7</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>à…ì° çéë◊</td>
+      <td>009</td>
+      <td>00:28:37</td>
+      <td>00:15:55</td>
+      <td>1.30</td>
+      <td>6</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>âÍâÆ âhçÏ</td>
+      <td>380</td>
+      <td>00:06:23</td>
+      <td>00:20:46</td>
+      <td>2.19</td>
+      <td>6</td>
+      <td>SV</td>
+    </tr>
+    <tr>
+      <td>Ó‡ñÿ òaóD</td>
+      <td>380</td>
+      <td>00:08:09</td>
+      <td>00:13:07</td>
+      <td>2.82</td>
+      <td>6</td>
+      <td>SV</td>
+    </tr>
+    <tr>
+      <td>âiå© çKëæòY</td>
+      <td>009</td>
+      <td>00:49:26</td>
+      <td>00:14:00</td>
+      <td>0.95</td>
+      <td>4</td>
+      <td>ç›ëÓ</td>
+    </tr>
+    <tr>
+      <td>éOÉPìc óúîT</td>
+      <td>211[óLëOãx]</td>
+      <td>00:08:51</td>
+      <td>00:06:48</td>
+      <td>3.83</td>
+      <td>4</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>è¨ñÏ ó≥éu</td>
+      <td>313</td>
+      <td>00:08:48</td>
+      <td>00:09:57</td>
+      <td>3.20</td>
+      <td>4</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>ê≥ë∫ åõàÍ</td>
+      <td>313</td>
+      <td>00:06:34</td>
+      <td>00:08:58</td>
+      <td>3.86</td>
+      <td>4</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>ïƒêÏ äw</td>
+      <td>322</td>
+      <td>00:09:41</td>
+      <td>00:06:30</td>
+      <td>3.70</td>
+      <td>4</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>ê•‡V âpï„</td>
+      <td>380</td>
+      <td>00:08:42</td>
+      <td>00:05:12</td>
+      <td>4.23</td>
+      <td>3</td>
+      <td>SV</td>
+    </tr>
+    <tr>
+      <td>â‘ó÷ çGé˜</td>
+      <td>009</td>
+      <td>00:00:00</td>
+      <td>00:00:00</td>
+      <td>0.00</td>
+      <td>0</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>çrâÕ óDëæ</td>
+      <td>009</td>
+      <td>00:00:00</td>
+      <td>00:00:00</td>
+      <td>0.00</td>
+      <td>0</td>
+      <td>åá</td>
+    </tr>
+    <tr>
+      <td>âiã¥ ê≥åõ</td>
+      <td>313</td>
+      <td>00:00:00</td>
+      <td>00:00:00</td>
+      <td>0.00</td>
+      <td>0</td>
+      <td>SV</td>
+    </tr>
+    <tr>
+      <td>ç˜à‰ óLî¸</td>
+      <td>óLãx</td>
+      <td>00:00:00</td>
+      <td>00:00:00</td>
+      <td>0.00</td>
+      <td>0</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>ëÂí| çqïΩ</td>
+      <td>ñ¢ê›íË</td>
+      <td>00:00:00</td>
+      <td>00:00:00</td>
+      <td>0.00</td>
+      <td>0</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>íﬂéî ëÅï‰</td>
+      <td>ñ¢ê›íË</td>
+      <td>00:00:00</td>
+      <td>00:00:00</td>
+      <td>0.00</td>
+      <td>0</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>å¥å˚ èáéq</td>
+      <td>èTãx</td>
+      <td>00:00:00</td>
+      <td>00:00:00</td>
+      <td>0.00</td>
+      <td>0</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>ãgâ™ êíéu</td>
+      <td>èTãx</td>
+      <td>00:00:00</td>
+      <td>00:00:00</td>
+      <td>0.00</td>
+      <td>0</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>ãgìc óSìÒ</td>
+      <td>èTãx</td>
+      <td>00:00:00</td>
+      <td>00:00:00</td>
+      <td>0.00</td>
+      <td>0</td>
+      <td>SV</td>
+    </tr>
+    <tr>
+      <td>ã{ìá ñÉàﬂ</td>
+      <td>èTãx</td>
+      <td>00:00:00</td>
+      <td>00:00:00</td>
+      <td>0.00</td>
+      <td>0</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>ã{ïî ê^</td>
+      <td>èTãx</td>
+      <td>00:00:00</td>
+      <td>00:00:00</td>
+      <td>0.00</td>
+      <td>0</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>ñÿìá íºêl</td>
+      <td>èTãx</td>
+      <td>00:00:00</td>
+      <td>00:00:00</td>
+      <td>0.00</td>
+      <td>0</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>êÛå¥ „ƒ</td>
+      <td>èTãx</td>
+      <td>00:00:00</td>
+      <td>00:00:00</td>
+      <td>0.00</td>
+      <td>0</td>
+      <td>SV</td>
+    </tr>
+    <tr>
+      <td>ä÷å˚ Ít</td>
+      <td>èTãx</td>
+      <td>00:00:00</td>
+      <td>00:00:00</td>
+      <td>0.00</td>
+      <td>0</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Ó‡ñÿ ê^çÿî¸</td>
+      <td>èTãx</td>
+      <td>00:00:00</td>
+      <td>00:00:00</td>
+      <td>0.00</td>
+      <td>0</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>

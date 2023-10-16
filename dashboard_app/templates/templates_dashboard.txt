@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="cp932">
+    <meta http-equiv="refresh" content="60">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles_to_dashboard.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <header>
+        <div class="last-data-acquisition-date">
+            <p>$formatten_datetime 現在</p>
+        </div>
+        <div class="title"><h1>KPI速報</h1><div>
+    </header>
+    <main>
+        <div class="acc_time_container">
+            <div class="aac_box">
+                <div class="label">ACW</div>
+                <div class="contents">$dep_acw</div>
+            </div>
+            <div class="aac_box">
+                <div class="label">ATT</div>
+                <div class="contents">$dep_att</div>
+            </div>
+            <div class="aac_box">
+                <div class="label">CPH</div>
+                <div class="contents">$dep_cph</div>
+            </div>
+            <div class="time_box">
+                <div class="label">現在の時刻</div>
+                <div class="contents" id="current-time">00:00:00</div>
+            </div>
+            <div class="time_box">
+                <div class="label">20分前の時刻</div>
+                <div class="contents" id="twenty-minutes-ago">00:00:00</div>
+            </div>
+            <div class="time_box">
+                <div class="label">40分前の時刻</div>
+                <div class="contents" id="forty-minutes-ago">00:00:00</div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="box">
+                <div class="label">直受け率</div>
+                <div class="contents">
+                <div class="contents-container">
+                    <p class="group">第2G</p>
+                    <p class="count">$count_direct_2g</p><p class="bar"> / </p><p class="count">$count_direct_all_2g</p>
+                    <p class="ratio">$ratio_direct_2g %</p>
+                </div>
+                <div class="contents-container">
+                    <p class="group">第3G</p>
+                    <p class="count">$count_direct_3g</p><p class="bar"> / </p><p class="count">$count_direct_all_3g</p>
+                    <p class="ratio">$ratio_direct_3g %</p>
+                </div>
+                <div class="contents-container">
+                    <p class="group">長岡</p>
+                    <p class="count">$count_direct_n</p><p class="bar"> / </p><p class="count">$count_direct_all_n</p>
+                    <p class="ratio">$ratio_direct_n %</p>
+                </div>
+                <div class="contents-container">
+                    <p class="group">その他</p>
+                    <p class="count">$count_direct_other</p><p class="bar"> / </p><p class="count">$count_direct_all_other</p>
+                    <p class="ratio">$ratio_direct_other %</p>
+                </div>
+                <div class="contents-container">
+                    <p class="group">総計</p>
+                    <p class="count">$count_direct_all</p><p class="bar"> / </p><p class="count">$count_direct_all_all</p>
+                    <p class="ratio">$ratio_direct_all %</p>
+                </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="label">20分以内折返し率</div>
+                <div class="contents">
+                <div class="contents-container">
+                    <p class="group">第2G</p>
+                    <p class="count">$count_20_2g</p><p class="bar"> / </p><p class="count">$count_all_2g</p>
+                    <p class="ratio">$ratio_20_2g %</p>
+                </div>
+                <div class="contents-container">
+                    <p class="group">第3G</p>
+                    <p class="count">$count_20_3g</p><p class="bar"> / </p><p class="count">$count_all_3g</p>
+                    <p class="ratio">$ratio_20_3g %</p>
+                </div>
+                <div class="contents-container">
+                    <p class="group">長岡</p>
+                    <p class="count">$count_20_n</p><p class="bar"> / </p><p class="count">$count_all_n</p>
+                    <p class="ratio">$ratio_20_n %</p>
+                </div>
+                <div class="contents-container">
+                    <p class="group">その他</p>
+                    <p class="count">$count_20_other</p><p class="bar"> / </p><p class="count">$count_all_other</p>
+                    <p class="ratio">$ratio_20_other %</p>
+                </div>
+                <div class="contents-container">
+                    <p class="group">総計</p>
+                    <p class="count">$count_20_all</p><p class="bar"> / </p><p class="count">$count_all_all</p>
+                    <p class="ratio">$ratio_20_all %</p>
+                </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="label">40分以内折返し率</div>
+                <div class="contents">
+                <div class="contents-container">
+                    <p class="group">第2G</p>
+                    <p class="count">$count_40_2g</p><p class="bar"> / </p><p class="count">$count_all_2g</p>
+                    <p class="ratio">$ratio_40_2g %</p>
+                </div>
+                <div class="contents-container">
+                    <p class="group">第3G</p>
+                    <p class="count">$count_40_3g</p><p class="bar"> / </p><p class="count">$count_all_3g</p>
+                    <p class="ratio">$ratio_40_3g %</p>
+                </div>
+                <div class="contents-container">
+                    <p class="group">長岡</p>
+                    <p class="count">$count_40_n</p><p class="bar"> / </p><p class="count">$count_all_n</p>
+                    <p class="ratio">$ratio_40_n %</p>
+                </div>
+                <div class="contents-container">
+                    <p class="group">その他</p>
+                    <p class="count">$count_40_other</p><p class="bar"> / </p><p class="count">$count_all_other</p>
+                    <p class="ratio">$ratio_40_other %</p>
+                </div>
+                <div class="contents-container">
+                    <p class="group">総計</p>
+                    <p class="count">$count_40_all</p><p class="bar"> / </p><p class="count">$count_all_all</p>
+                    <p class="ratio">$ratio_40_all %</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="notes">
+            <p>※CPHは暫定値です</p>
+            <p>ページは1分ごと, データは3分ごとに更新されます。</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

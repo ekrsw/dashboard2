@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="cp932">
+    <meta http-equiv="refresh" content="60">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>本日の個人別パフォーマンス</title>
+</head>
+<body>
+    <header>
+        <div class="last-data-acquisition-date">
+            <p>$formatten_datetime 現在</p>
+        </div>
+        <div class="title"><h1>本日の個人別パフォーマンス</h1><div>
+    </header>
+    <main>
+        $html_table
+    </main>
+    <footer>
+        <div class="notes">
+            <p>※CPHは暫定値です</p>
+            <p>ページは1分ごと, データは3分ごとに更新されます。</p>
+        </div>
+    </footer>
+</body>
+</html>

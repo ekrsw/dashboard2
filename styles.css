@@ -1,0 +1,43 @@
+body {
+    background-color: #F5F7FD;
+}
+main {
+    font-family: "Meyrio" sans-serif;
+}
+.last-data-acquisition-date {
+    font-size: 15px;
+}
+.container {
+    display: flex;
+}
+.box {
+    width: 190px;
+    height: 110px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 5px 10px;
+    margin: 10px 5px;
+}
+.contents {
+    font-weight: bold;
+    font-size: 20px;
+    color: #404040;
+    text-align: center;
+}
+.label {
+    font-weight: bold;
+    font-size: 20px;
+    color: #193A95;
+}
+.contents-container {
+    display: flex;
+    font-size: 15px;
+    margin: 0px;
+}
+.contents-container p {
+    font-weight: bold;
+    color: #404040;
+    width: 50px;
+    height: 25px;
+    margin: 0px;
+}
