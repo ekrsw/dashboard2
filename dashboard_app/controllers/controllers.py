@@ -62,8 +62,8 @@ def get_today_acw_att_cph():
     dataset = cl.calc_acw_att_cph(df_join)
 
     # シフトデータをjoin
-    dataset = dataset.join(df_shift, how='outer').fillna('未設定')
-    dataset = dataset.join(df_duty, how='outer').fillna('')
+    dataset = dataset.join(df_shift, how='left').fillna('未設定')
+    dataset = dataset.join(df_duty, how='left').fillna('')
     
     # 必要なカラムのみ抽出
     dataset = dataset[['ｼﾌﾄ', 'ACW', 'ATT', 'CPH', 'ｸﾛｰｽﾞ', '業務ｽﾃｰﾀｽ']]
